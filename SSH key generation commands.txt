@@ -1,0 +1,52 @@
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~
+$ pwd
+/c/Users/HI
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~
+$ mkdir .ssh
+mkdir: cannot create directory ‘.ssh’: File exists
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~
+$ cd .ssh
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~/.ssh
+$ pwd
+/c/Users/HI/.ssh
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~/.ssh
+$ ssh-keygen.exe
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/HI/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/HI/.ssh/id_rsa
+Your public key has been saved in /c/Users/HI/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:gZRhxXVjJ122j7IAj55+fW4w/vCgM7CIORlfKh+oTdE HI@DESKTOP-CJSJQG7
+The key's randomart image is:
++---[RSA 3072]----+
+|      +=... =...o|
+|     o...  o +...|
+|      . o      . |
+|     .   =     ..|
+|    . E S o . . .|
+|    .o .o. .oo   |
+|    o*.+oo o+o   |
+|   +* +o. +.o+o  |
+|  . .+. ...o =+  |
++----[SHA256]-----+
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~/.ssh
+$ ls
+id_rsa  id_rsa.pub
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~/.ssh
+$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCyd5hobaUevfrDKy8mOdl3hos33XujQrzvc4MMotyDyn/ahQXf6wIeyUdHPNDx0xFizYSmjyLHEnVRtsK7vPtNFCuzGaC9nC/VCFKimRKtSfQgpJqxBVZ4eVaphrIFBOMGU3hGssCzEv5oAqEj0rFEmMbUJ31ACp5XJLKKzIkn2J/veOhysFH0O8BW5bf0mRfWGqJxwFQwnoZDELp0+IRtt8+R42cJsR4as6gDssKy2CKZDtNQlGIAs/xrqane5i05KlJqw4ffzgDvt2qsimUo+TVUwW0uGv9+eGMTE9qJkX5ISfzwhwR6EQUxTLmqaZu5hJM9F+IT4M30SdKqKubtwVVABh4XlXDDQxvLGThQYCTF97LEXcAWzKd2FTNfPUSdYHhkSdvawb27Jjax0mGehJcGhbwjytGjwfwYSQ1J99qP7ZPNkaRGcnohLLbj4py1vBG5hH96uK3hjGa6dYk0PbuYqRssaAvdZKPV3DgPrsOeIjuhYGmb9epRW5oLV80= HI@DESKTOP-CJSJQG7
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~/.ssh
+$ ^C
+
+HI@DESKTOP-CJSJQG7 MINGW64 ~/.ssh
+$
