@@ -1,5 +1,5 @@
 <?php
-$company_name ="Aruna and Co."
+$company_name ="Aruna and Co. LLC"
 
 
 ?>
